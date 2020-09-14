@@ -11,7 +11,6 @@
  */
 
 html {
-  scroll-behavior: smooth;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -25,8 +24,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #d9e0eb;
-  background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b794f4' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 /**
@@ -14343,16 +14340,14 @@ video {
   transition-delay: 1000ms;
 }
 
-.theme{
-  width: 1rem;
-  height: 1rem;
-  border-width: 1px;
-  --border-opacity: 1;
-  border-color: #718096;
-  border-color: rgba(113, 128, 150, var(--border-opacity));
-  border-radius: 9999px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
+/* .theme {
+    @apply w-4 h-4 border border-gray-600 rounded-full shadow-md;
+} */
+
+/* .nav_link {
+    @apply py-1 hover:text-gray-900 border-b-2 border-teal-100 hover:border-teal-400 transition duration-500;
+
+} */
 
 @media (min-width: 640px){
   .sm\:container{

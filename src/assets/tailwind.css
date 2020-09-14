@@ -5,6 +5,11 @@
 @import 'tailwindcss/utilities';
 
 
-.theme{
+/* .theme {
     @apply w-4 h-4 border border-gray-600 rounded-full shadow-md;
-}
+} */
+
+/* .nav_link {
+    @apply py-1 hover:text-gray-900 border-b-2 border-teal-100 hover:border-teal-400 transition duration-500;
+
+} */

@@ -10,7 +10,7 @@ function Projects() {
             stack: 'html,css,react',
             demo: true,
             description:'This my big project on React',
-            image:'jbhifi'
+            image:'img/jbhifi.jpg'
         },
         {
             id:2,
@@ -18,7 +18,7 @@ function Projects() {
             stack: 'html,css,JS',
             demo: true,
             description:'After practicing pacman, I build this by my own',
-            image:'snake'
+            image:'img/snake.jpg'
         },
         {
             id:3,
@@ -26,7 +26,7 @@ function Projects() {
             stack: 'html,tailwindcss,react',
             demo: true,
             description:'This my big project on React',
-            image: 'myportfolio'
+            image: 'img/myportfolio.jpg'
         },
         {
             id:4,
@@ -34,7 +34,7 @@ function Projects() {
             stack: 'html,tailwindcss,JS',
             demo: false,
             description:'My weekly inspiring plot on website',
-            image:'pomokanban'
+            image:'img/pomokanban.jpg'
         },
     ];
     return (
