@@ -11,35 +11,29 @@ import Footer from './components/Footer';
 
 
 function App() {
-  const themes = [
-    {
-      name:'orange',
-      primaryColor:'text-orange-500',
-      secondaryColor:'text-purple-400',
-      bgColor: 'bg-orange-100'
+  const themes = {
+    orange:    {
+      primaryColor:'teal',
+      secondaryColor:'purple'
     },
-    {
-      name:'purple',
-      primaryColor:'text-purple-500',
-      secondaryColor:'text-orange-400',
-      bgColor: 'bg-purple-100'
+    purple:    {
+      primaryColor:'purple',
+      secondaryColor:'teal',
     },
-    {
-      name:'dark',
-      primaryColor:'text-gray-100',
-      secondaryColor:'text-orange-400',
-      bgColor: 'bg-black'
+    dark: {
+      primaryColor:'gray',
+      secondaryColor:'pink'      
     }
-  ]
-  const [theme,setTheme] = useState(themes[0])
+  }
+  const [theme,setTheme] = useState(themes.orange)
   // const ThemeProvider = useContext(ThemeContext);
   // 
   // const [state,dispatch] = useReducer(Reducer,initialTheme)
   return (
     // <ThemeProvider value={{state, dispatch}}>
-        <div className="bg-repeat container">
+        <div>
 
-          <Header themes={themes} setTheme={setTheme}/>
+          <Header theme={theme} themes={themes} setTheme={setTheme}/>
           <Banner theme={theme}/>
           <Projects />
           <About />
