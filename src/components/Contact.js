@@ -23,7 +23,7 @@ function Contact() {
         e.preventDefault();
         // console.log(user);
         try {
-            const res = await axios.post('http://localhost:8000/message', user)
+            const res = await axios.post('https://myportfoliomessagebackend.herokuapp.com/message', user)
 
             // console.log(res.data);
             window.alert(`Thank you, ${res.data.name}`);
