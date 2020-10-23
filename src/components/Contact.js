@@ -6,10 +6,10 @@ import axios from 'axios';
 
 function Contact() {
     const initialState = {
-        name: 'Bijaya',
-        email: 'bij@gmail.com',
-        phone: 12345,
-        msg: 'How are you?'
+        name: '',
+        email: '',
+        phone: '',
+        msg: ''
     }
     const [user, setUser] = useState(initialState);
     const { name, email, phone, msg } = user;
@@ -21,11 +21,11 @@ function Contact() {
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(user);
+        // console.log(user);
         try {
             const res = await axios.post('http://localhost:8000/message', user)
 
-            console.log(res.data);
+            // console.log(res.data);
             window.alert(`Thank you, ${res.data.name}`);
             // window.location.reload();
         } catch (err) {
@@ -33,6 +33,7 @@ function Contact() {
             console.log(err);
             window.alert('Sorry, message is not beeing send.');
         }
+        setUser({ ...initialState })
 
     }
 
