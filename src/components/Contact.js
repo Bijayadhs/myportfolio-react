@@ -6,7 +6,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 function Contact() {
     return (
         <div id="contact" className="container mx-auto px-12 py-24 min-h-screen">
-            <h1 className="text-4xl border-b-4  inline-block  mb-4 text-purple-700 ">Contact Me</h1>
+            <h1 className="text-4xl font-semibold border-b-4 border-purple-400  inline-block  mb-4 text-purple-700 ">Contact Me</h1>
             <div className=" text-center w-1/2 m-auto">
                 <h2 className="font-bold text-3xl">Get in touch!</h2>
                 <p className="font-thin mb-8">I am despirately searching for job. If you like my work, please fell free to contact me.</p>
@@ -32,15 +32,15 @@ function Contact() {
                         <div className="w-1/2">
                             <div className="mb-2 text-xs">
                                 <h2>Full Name</h2>
-                                <input type="text" placeHolder="Your name..." className="rounded shadow-xs p-2" />
+                                <input type="text" placeholder="Your name..." className="rounded shadow-xs p-2" />
                             </div>
                             <div className="mb-2 text-xs">
                                 <h2>Email</h2>
-                                <input type="email" placeHolder="Your email..." className="rounded shadow-xs p-2" />
+                                <input type="email" placeholder="Your email..." className="rounded shadow-xs p-2" />
                             </div>
                             <div className="mb-2 text-xs">
                                 <h2>Phone</h2>
-                                <input type="phone" placeHolder="Your phone..." className="rounded shadow-xs p-2" />
+                                <input type="phone" placeholder="Your phone..." className="rounded shadow-xs p-2" />
                             </div>
 
                         </div>

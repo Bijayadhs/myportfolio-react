@@ -23,7 +23,7 @@ function App() {
     },
     dark: {
       primaryColor: 'gray',
-      secondaryColor: 'pink'
+      secondaryColor: 'blue'
     }
   }
   const [theme, setTheme] = useState(themes.orange)
