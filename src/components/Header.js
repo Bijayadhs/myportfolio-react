@@ -15,16 +15,16 @@ function Header({ theme, themes, setTheme }) {
       <div className="container mx-auto px-12 lg:flex justify-between items-center ">
         <div className="flex justify-between items-center">
           {/* logo-title */}
-          <div className="text-4xl">
+          <div className="text-2xl lg:text-4xl">
             <h1 className={`font-cursive text-${theme.secondaryColor}-700`}>BIJAYA A.</h1>
           </div>
 
           {/* theme */}
-          <div className="flex items-center">
-            <div className="font-cursive m-2">Theme-></div>
-            <button onClick={orangeTheme} className=" focus:outline-none w-6 h-6 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-teal-500 mr-2"></button>
-            <button onClick={purpleTheme} className=" focus:outline-none w-6 h-6 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-purple-500 mr-2"></button>
-            <button onClick={darkTheme} className=" focus:outline-none w-6 h-6 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-black"></button>
+          <div className="lg:flex lg:items-center items-center">
+            <div className="font-cursive mx-2 my-1">Theme:</div>
+            <button onClick={orangeTheme} className=" focus:outline-none lg:w-6 w-4 lg:h-6 h-4 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-teal-500 mr-2"></button>
+            <button onClick={purpleTheme} className=" focus:outline-none lg:w-6 w-4 lg:h-6 h-4 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-purple-500 mr-2"></button>
+            <button onClick={darkTheme} className=" focus:outline-none lg:w-6 w-4 lg:h-6 h-4 border  rounded-full transition duration-300 transform hover:scale-125 focus:scale-125 shadow-md hover:shadow-xl bg-black"></button>
           </div>
         </div>
 
