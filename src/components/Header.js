@@ -15,7 +15,7 @@ function Header({ theme, themes, setTheme }) {
       <div className="container mx-auto px-12 lg:flex justify-between items-center ">
         <div className="flex justify-between items-center">
           {/* logo-title */}
-          <div className="lg:text-3xl text-5xl">
+          <div className="text-4xl">
             <h1 className={`font-cursive text-${theme.secondaryColor}-700`}>BIJAYA A.</h1>
           </div>
 
