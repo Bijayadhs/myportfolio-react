@@ -4,16 +4,16 @@ function Banner({ theme }) {
     console.log(theme)
     return (
         <section id="home" className={`min-h-screen -py-8 overflow-x-hidden z-10 text-${theme.primaryColor}-500 bg-${theme.secondaryColor}-100`}>
-            <div className="container mx-auto px-12 pt-48  flex justify-between">
+            <div className="container mx-auto px-12 pt-32  flex justify-between">
                 <div className="z-40">
-                    <h2 className={`text-3xl font-thin inline-block text-${theme.primaryColor}-400`}>Hello, Namaste<span>!</span></h2>
-                    <h1 className={`font-bold text-4xl text-${theme.primaryColor}-600`}>My name is <span className="animate-pulse">Bijaya Adhikari</span></h1>
-                    <h6 className={`font-thin text-${theme.secondaryColor}-700 text-gray-500 text-lg tracking-widest`}>Web Developer | IT Guy | EEE</h6>
-                    <button className={`border border-${theme.buttonColor} py-2 px-4 my-4 rounded-lg shadow-2xl outline-none bg-${theme.buttonColor} `}>Download Resume</button>
+                    <h2 className={`text-lg text-${theme.primaryColor}-400`}>Hello, Namaste<span role="img" aria-label="Namaste">🙏</span></h2>
+                    <h1 className={`leading-8 font-bold text-3xl text-${theme.primaryColor}-600`}>My name is <span className="text-4xl animate-pulse">Bijaya Adhikari</span></h1>
+                    <h6 className={`mt-4 font-thin text-sm leading-4 lg:leading-6 tracking-tighter lg:tracking-widest text-${theme.secondaryColor}-700 text-gray-500`}>Web Developer | IT Guy | EEE</h6>
+                    <button className={`border border-${theme.primaryColor} text-white py-2 px-4 my-4 rounded-lg shadow-2xl focus:outline-none bg-${theme.primaryColor}-600 hover:bg-${theme.primaryColor}-500 `}>Download Resume</button>
                 </div>
                 {/* image */}
-                <div className="mr-8 mb-8 border-8 border-purple-500 rounded-full overflow-hidden" >
-                    <img className="relative w-64 h-56  shadow-lg z-10" src={process.env.PUBLIC_URL + '/img/bj.jpg'} alt='Bijaya' />
+                <div className="my-4 md:h-64 md:w-64 w-48 h-40 border-4 lg:border-8 border-purple-500 rounded-full overflow-hidden" >
+                    <img className="relative w-full h-full  shadow-lg z-10" src={process.env.PUBLIC_URL + '/img/bj.jpg'} alt='Bijaya' />
 
                 </div>
                 <div className="top z-0">

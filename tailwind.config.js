@@ -3,10 +3,12 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-           'cursive': ['Indie Flower'],
-           'robo': ['Roboto','Titillium Web'],
-          },
+      'cursive': ['Indie Flower'],
+      'robo': ['Roboto', 'Titillium Web'],
+    },
   },
-  variants: {},
+  variants: {
+    backgroundColor: ['hover', 'focus', 'active']
+  },
   plugins: [],
 }

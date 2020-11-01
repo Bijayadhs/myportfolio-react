@@ -55,7 +55,7 @@ function Projects() {
         },
     ];
     return (
-        <div id="projects" className="container mx-auto px-12 py-24 min-h-screen">
+        <div id="projects" className="container mx-auto px-12 lg:py-16 py-32 min-h-screen">
             <h1 className="text-4xl font-semibold border-b-4 border-purple-400  inline-block  mb-4 text-purple-700 ">Projects</h1>
             <div className="flex justify-between items-center flex-wrap">
                 {myProjects.map(project => {

@@ -38,7 +38,7 @@ function Contact() {
     }
 
     return (
-        <div id="contact" className="container mx-auto  px-12 py-24 min-h-screen">
+        <div id="contact" className="container mx-auto  px-12 lg:py-16 py-32 min-h-screen">
             <h1 className="text-4xl font-semibold border-b-4 border-purple-400  inline-block  mb-4 text-purple-700 ">Contact Me</h1>
             <div className=" text-center w-1/2 m-auto">
                 <h2 className="font-bold text-3xl">Get in touch!</h2>
