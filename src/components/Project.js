@@ -14,9 +14,9 @@ function Project({ project }) {
                 <h2 className="font-extrabold text-xl text-gray-700">{name}</h2>
                 <h3 className="font-thin text-sm leading-5 font-sm">{description}</h3>
                 <div className="flex justify-start items-center absolute bottom-0 left-0 right-0 z-10 p-2 bg-gray-500 text-purple-500">
-                    <Link to={github} className="text-green-300" target="_blank">
+                    <Link to={github ? github : ''} className="text-green-300" target="_blank">
                         <img className="w-4 h-4" src={git} alt='git' /></Link>
-                    <Link to={website} className="text-green-300" target="_blank">
+                    <Link to={website ? website : ''} className="text-green-300" target="_blank">
 
                         <img className="w-4 h-4" src={browser} alt='git' /></Link>
                     <p className="mx-2 mb-2 absolute bottom-0 right-0 text-purple-500 text-xs">

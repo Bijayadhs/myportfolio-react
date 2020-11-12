@@ -4,13 +4,15 @@ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 
 function Footer() {
     return (
-        <div className="container mx-auto px-12 my-4 flex justify-between items-center">
-            <p>&copy;2020@Bijaya</p>
-            <a href="#home">
-                <div className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-white">
-                    <ArrowUpwardIcon />
-                </div>
-            </a>
+        <div className="bg-gray-800">
+            <div className="container text-white mx-auto px-12 py-8 my-4 flex justify-between items-center">
+                <p>copyright&copy;Bijaya 2020 | BornToWebDev</p>
+                <a href="#home">
+                    <div className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-white">
+                        <ArrowUpwardIcon />
+                    </div>
+                </a>
+            </div>
         </div>
     )
 }

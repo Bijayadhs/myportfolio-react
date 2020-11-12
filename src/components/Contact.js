@@ -45,22 +45,22 @@ function Contact() {
                 <p className="font-thin mb-8">I am despirately searching for job. If you like my work, please fell free to contact me.</p>
 
                 <div className="flex justify-between items-center text-xs">
-                    <div className="flex flex-col justify-center items-center bg-orange-200 rounded p-2 mx-2 w-40 h-20">
+                    <div className="flex flex-col justify-center items-center bg-purple-300 rounded p-2 mx-2 w-40 h-20">
                         <LocationOnOutlinedIcon />
                         <p>64 Great Western Highway</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center bg-orange-200 rounded p-2 mx-2 w-40 h-20">
+                    <div className="flex flex-col justify-center items-center bg-purple-300 rounded p-2 mx-2 w-40 h-20">
                         <PhoneIcon />
                         <p>+61 424428959</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center bg-orange-200 rounded p-2 mx-2 w-40 h-20">
+                    <div className="flex flex-col justify-center items-center bg-purple-300 rounded p-2 mx-2 w-40 h-20">
                         <MailOutlineIcon />
                         <p>bijayadhikari107@gmail.com</p>
                     </div>
                 </div>
 
 
-                <form onSubmit={handleSubmit} className="bg-orange-200 rounded-lg my-8">
+                <form onSubmit={handleSubmit} className="bg-purple-300 rounded-lg my-8">
                     <div className="flex justify-between p-4 text-left text-gray-700">
                         <div className="w-1/2">
                             <div className="mb-2 text-xs">
